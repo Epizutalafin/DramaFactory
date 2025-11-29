@@ -67,6 +67,7 @@ body {
   max-width: 900px;
   margin: 0 auto 40px;
   padding: 0 10px;
+  justify-items: center; /* centre tous les éléments */
 }
 
 @media (min-width: 600px) {
@@ -89,16 +90,6 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.4);
 }
 
-.esc-tab {
-  grid-column: 1 / -1;      /* occupe toute la rangée */
-  justify-self: center;     /* centre dans la grille */
-  width: 100%;
-  max-width: 260px;
-  margin: 10px auto 0;
-}
-.tabs {
-  justify-items: center;
-}
 .tab:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.55);
@@ -115,7 +106,7 @@ body {
 
 /* COLOR GRADIENTS ---------------------------------------- */
 
-/* GÉNÉRAL — (ancien "tous") */
+/* GÉNÉRAL */
 .tab[data-tab="general"] {
   background: linear-gradient(90deg, #ff7791, #d43aff);
 }
@@ -135,12 +126,12 @@ body {
   background: linear-gradient(90deg, #527aff, #33c8ff);
 }
 
-/* ACTION (ancien "explosif") */
+/* ACTION */
 .tab[data-tab="action"] {
   background: linear-gradient(90deg, #ffb347, #ff4b2b);
 }
 
-/* MINIS (ancien "doux") */
+/* MINIS */
 .tab[data-tab="minis"] {
   background: linear-gradient(90deg, #bbff6a, #dcea36);
 }
@@ -148,4 +139,13 @@ body {
 /* ÉCHAP — gris acier */
 .tab[data-tab="esc"] {
   background: linear-gradient(90deg, #b8bcc2, #414851);
+}
+
+/* SPECIAL ESC placement ---------------------------------- */
+.esc-tab {
+  grid-column: 1 / -1;        /* occupe toute la ligne */
+  justify-self: center;       /* centre horizontalement */
+  width: 100%;
+  max-width: 260px;           /* taille maîtrisée */
+  margin: 10px auto 0;
 }
