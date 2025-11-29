@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drama Factory</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- LANG SWITCH -->
+  <div class="lang-switch">
+    <select id="lang-picker">
+      <option value="fr">FR</option>
+      <option value="en">EN</option>
+    </select>
+  </div>
+
+  <!-- TITLE -->
+  <h1 class="title">DRAMA</h1>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <button class="tab" data-tab="general">Général</button>
+    <button class="tab" data-tab="surnaturel">Surnaturel</button>
+    <button class="tab" data-tab="bureau">Bureau</button>
+    <button class="tab" data-tab="noel">Noël</button>
+    <button class="tab" data-tab="action">Action</button>
+    <button class="tab" data-tab="minis">Minis</button>
+
+    <!-- SPECIAL ESC BUTTON -->
+    <button class="tab esc-tab" data-tab="esc">Échap</button>
+  </div>
+
+  <!-- RESULT AREA -->
+  <div id="event-result" class="result-box"></div>
+
+  <!-- OOC INTRO -->
+  <p id="ooc-intro" class="ooc-intro">
+    Tu veux que ce soit l'IA qui amène le rebondissement ? Fais un copié/collé de la règle suivante :
+  </p>
+
+  <!-- OOC BOX -->
+  <div id="ooc-box" class="result-box small-box">
+    (OOC : Texte...)
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
