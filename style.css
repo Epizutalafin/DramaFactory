@@ -1,0 +1,148 @@
+/* GLOBAL ------------------------------------------------ */
+body {
+  background: #111;
+  color: #fff;
+  font-family: "Georgia", serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.lang-switch {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+#lang-picker {
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* TITLE -------------------------------------------------- */
+.title {
+  font-size: 3.8rem;
+  margin: 60px 0 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* RESULT BOX -------------------------------------------- */
+.result-box {
+  width: 85%;
+  margin: 30px auto;
+  background: #1b1b1b;
+  border-radius: 14px;
+  padding: 25px;
+  min-height: 60px;
+  font-size: 1.35rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* PETIT CHAMP OOC ---------------------------------------- */
+.small-box {
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 1.2rem;
+}
+
+.small-box:hover {
+  background: #222;
+  opacity: 1;
+}
+
+/* TABS WRAPPER ------------------------------------------ */
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px 40px;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 0 10px;
+}
+
+@media (min-width: 600px) {
+  .tabs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* TABS --------------------------------------------------- */
+.tab {
+  width: 100%;
+  padding: 14px 0;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: 0.25s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.tab:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.55);
+}
+
+/* OOC INTRO --------------------------------------------- */
+.ooc-intro {
+  margin-top: 5px;
+  margin-bottom: -8px;
+  font-size: 1.05rem;
+  opacity: 0.75;
+  text-align: center;
+}
+
+/* COLOR GRADIENTS ---------------------------------------- */
+
+/* GENERAL */
+.tab[data-tab="general"] {
+  background: linear-gradient(90deg, #ff9ba8, #ff66cc);
+}
+
+/* SURNATUREL */
+.tab[data-tab="surnaturel"] {
+  background: linear-gradient(90deg, #6a00ff, #9a4dff);
+}
+
+/* BUREAU */
+.tab[data-tab="bureau"] {
+  background: linear-gradient(90deg, #3a7fa0, #4dbb89);
+}
+
+/* NOEL */
+.tab[data-tab="noel"] {
+  background: linear-gradient(90deg, #4db6ff, #9fe8ff);
+}
+
+/* ACTION */
+.tab[data-tab="action"] {
+  background: linear-gradient(90deg, #ff8a2b, #ff2e2e);
+}
+
+/* MINIS */
+.tab[data-tab="minis"] {
+  background: linear-gradient(90deg, #b7ff8e, #f5f48b);
+}
+
+/* ESCAPÉ */
+.tab[data-tab="esc"] {
+  background: linear-gradient(90deg, #b8bcc2, #414851);
+}
+
+/* ESC special placement */
+.esc-tab {
+  grid-column: 1 / -1;
+  max-width: 260px;
+  margin: 10px auto 0;
+}
