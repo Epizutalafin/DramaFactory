@@ -89,6 +89,16 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.4);
 }
 
+.esc-tab {
+  grid-column: 1 / -1;      /* occupe toute la rangée */
+  justify-self: center;     /* centre dans la grille */
+  width: 100%;
+  max-width: 260px;
+  margin: 10px auto 0;
+}
+.tabs {
+  justify-items: center;
+}
 .tab:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.55);
