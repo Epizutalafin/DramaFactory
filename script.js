@@ -27,7 +27,7 @@ async function loadCategory(category) {
 }
 
 // ======================================================
-// LABELS DES ONGLETS
+// LABELS DES ONGLETS + TITRE
 // ======================================================
 const tabLabels = {
   fr: {
@@ -37,7 +37,8 @@ const tabLabels = {
     noel: "Noël",
     action: "Action",
     minis: "Minis",
-    esc: "Échap"
+    esc: "Échap",
+    title: "La Fabrique à Dramas"
   },
   en: {
     general: "General",
@@ -46,7 +47,8 @@ const tabLabels = {
     noel: "Christmas",
     action: "Action",
     minis: "Minis",
-    esc: "Escape"
+    esc: "Escape",
+    title: "The Dramas Factory"
   }
 };
 
@@ -55,6 +57,9 @@ function updateTabLabels() {
     const cat = btn.dataset.tab;
     btn.textContent = tabLabels[currentLang][cat];
   });
+
+  // Mise à jour du titre
+  document.getElementById("main-title").textContent = tabLabels[currentLang].title;
 
   updateOOCIntro();
 }
