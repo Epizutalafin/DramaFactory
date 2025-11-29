@@ -105,44 +105,37 @@ body {
 
 /* COLOR GRADIENTS ---------------------------------------- */
 
-/* GENERAL */
+/* GÉNÉRAL — (ancien "tous") */
 .tab[data-tab="general"] {
-  background: linear-gradient(90deg, #ff9ba8, #ff66cc);
+  background: linear-gradient(90deg, #ff7791, #d43aff);
 }
 
 /* SURNATUREL */
 .tab[data-tab="surnaturel"] {
-  background: linear-gradient(90deg, #6a00ff, #9a4dff);
+  background: linear-gradient(90deg, #6a4aff, #c05cff);
 }
 
 /* BUREAU */
 .tab[data-tab="bureau"] {
-  background: linear-gradient(90deg, #3a7fa0, #4dbb89);
+  background: linear-gradient(90deg, #4cc0d7, #3aa874);
 }
 
-/* NOEL */
+/* NOËL */
 .tab[data-tab="noel"] {
-  background: linear-gradient(90deg, #4db6ff, #9fe8ff);
+  background: linear-gradient(90deg, #527aff, #33c8ff);
 }
 
-/* ACTION */
+/* ACTION (ancien "explosif") */
 .tab[data-tab="action"] {
-  background: linear-gradient(90deg, #ff8a2b, #ff2e2e);
+  background: linear-gradient(90deg, #ffb347, #ff4b2b);
 }
 
-/* MINIS */
+/* MINIS (ancien "doux") */
 .tab[data-tab="minis"] {
-  background: linear-gradient(90deg, #b7ff8e, #f5f48b);
+  background: linear-gradient(90deg, #bbff6a, #dcea36);
 }
 
-/* ESCAPÉ */
+/* ÉCHAP — gris acier */
 .tab[data-tab="esc"] {
   background: linear-gradient(90deg, #b8bcc2, #414851);
-}
-
-/* ESC special placement */
-.esc-tab {
-  grid-column: 1 / -1;
-  max-width: 260px;
-  margin: 10px auto 0;
 }
