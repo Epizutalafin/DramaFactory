@@ -137,8 +137,8 @@ body {
 }
 
 /* NATURE */
-.tab[data-tab="nature"] {
-  background: linear-gradient(90deg, #0f4d2f, #1f7a46);
+.tab[data-tab="sauvage"] {
+  background: linear-gradient(90deg, #0f4d2f, #739447);
 }
 
 /* ÉCHAP — gris acier */
