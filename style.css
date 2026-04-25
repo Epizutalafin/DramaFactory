@@ -136,16 +136,12 @@ body {
   background: linear-gradient(90deg, #bbff6a, #dcea36);
 }
 
+/* NATURE */
+.tab[data-tab="nature"] {
+  background: linear-gradient(90deg, #0f4d2f, #1f7a46);
+}
+
 /* ÉCHAP — gris acier */
 .tab[data-tab="esc"] {
   background: linear-gradient(90deg, #b8bcc2, #414851);
-}
-
-/* SPECIAL ESC placement ---------------------------------- */
-.esc-tab {
-  grid-column: 1 / -1;        /* occupe toute la ligne */
-  justify-self: center;       /* centre horizontalement */
-  width: 100%;
-  max-width: 260px;           /* taille maîtrisée */
-  margin: 10px auto 0;
 }
