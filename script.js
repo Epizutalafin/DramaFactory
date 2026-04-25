@@ -37,6 +37,7 @@ const tabLabels = {
     noel: "Noël",
     action: "Action",
     minis: "Minis",
+    nature: "Nature",
     esc: "Sortie de secours",
     title: "La Fabrique à Dramas"
   },
@@ -46,6 +47,7 @@ const tabLabels = {
     bureau: "Workplace",
     noel: "Christmas",
     action: "Action",
+    nature: "Nature",
     minis: "Minis",
     esc: "Emergency exit",
     title: "The Dramas Factory"
