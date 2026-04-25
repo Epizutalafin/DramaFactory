@@ -17,8 +17,7 @@
   "Le Supa découvre une lettre que je n’étais jamais censée lire.",
   "Un rival amoureux débarque et déclare sa flamme devant le Supa.",
   "Le Supa disparaît toute une nuit sans prévenir.",
-  "Nous nous perdons en pleine nature.",
-  "Nous nous perdons en pleine tempête.",
+  "Nous apprenons que Supa est déclaré officiellement mort, alors qu'il est à côté de moi.",
   "Une personne de confiance me révèle « quelque chose » sur lui.",
   "Son ex-principal revient avec une bombe : « Il n’est pas celui que tu crois. ».",
   "L’un découvre le dossier/papier/photo que l’autre voulait cacher.",
@@ -52,6 +51,7 @@
   "Un voisin disparaît, laissant la porte ouverte et du sang.",
   "Une alerte enlèvement dans le quartier crée la panique.",
   "Une boisson altère mes sens."
+  "Un inconnu m'aborde en m’appelant avec le nom de famille du Supa et refuse de croire à une erreur."
 ],
   "en": [
   "The Supa learns that someone close to him has disappeared.",
@@ -71,8 +71,7 @@
   "The Supa finds a letter I was never meant to read.",
   "A romantic rival appears and declares their love in front of the Supa.",
   "The Supa disappears for an entire night without warning.",
-  "We get lost in the wilderness.",
-  "We get lost in a storm.",
+  "We've just heard that Supa has been officially declared dead, even though he's right here beside me."
   "A trusted person reveals “something” to me about him.",
   "His main ex returns with a bombshell: “He’s not who you think he is.”",
   "One of us discovers the file/paper/photo the other wanted to hide.",
@@ -106,5 +105,6 @@
   "A neighbor disappears, leaving the door open and blood behind.",
   "An abduction alert in the neighborhood triggers panic.",
   "A drink alters my senses."
+  "A stranger approached me, calling me by the surname “Supa”, and refused to believe it was a mistake."
 ]
 }
